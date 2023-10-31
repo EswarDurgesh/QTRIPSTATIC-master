@@ -1,0 +1,83 @@
+.navbar-nav {
+  margin-left:auto; /* Add margin-left auto to push the items to the right */
+}
+.navbar-brand{
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+
+}
+.navbar-brand:hover{
+  background-color: #ddd;
+}
+
+
+.nav-item {
+  margin-left: 16px; /* Add margin-left to create space between the items */
+}
+
+
+.nav-link {
+  margin-right: 36px;
+}
+
+
+.adventure-detail-card {
+    /* TODO: MODULE_ADVENTURE_DETAILS */
+    /* 1. Fill in the required properties. */
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 20px;
+  }
+  
+  .adventure-card-image {
+    /* TODO: MODULE_ADVENTURE_DETAILS */
+    /* 1. Fill in the required properties. */
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.4s all;
+  
+  }
+  .adventure-card-image:hover {
+    /* TODO: MODULE_ADVENTURE_DETAILS */
+    /* 1. Fill in the required properties. */
+    filter: brightness(50%);
+    margin-bottom: 0;
+  }
+  .experience-content ul li {
+    margin-left: 16px;
+    padding: 0;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktops phones: */
+    #reservation {
+      position: fixed;
+      margin-right:35px;
+      top: 107px; /* Adjust the top distance as needed */
+      right: 20px;
+      width: 400px;
+    }
+  }
+
+    footer {
+      left: 0;
+      right: 0;
+      margin-bottom: 40px;
+      transform: translateY(50%);
+      text-align: center;
+    }  
+
+    
+     
+  
+  

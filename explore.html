@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>QTrip Adventure Detail</title>
+   <link rel="stylesheet" href="exploreStyles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+   <!-- TODO: MODULE_ADVENTURE_DETAILS -->
+   <!-- 1. Copy navigation bar HTML from Landing page document -->
+
+   <nav class="navbar navbar-light navbar-expand-lg ">
+      <a class="navbar-brand" style="margin-left: 20px;" href ="/index.html">GlobalRoaming</a>
+      <button type="button" 
+      class="navbar-toggler" 
+      data-bs-toggle = "collapse" 
+      data-bs-target="#navbaritems"
+      >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbaritems">
+      <ul class="navbar-nav d-flex justify-content-end w-100">
+        <li class="nav-item"><a class="navbar-link" href="/index.html"> Home </a></li>
+        <!-- <li class="nav-item"><a class="navbar-link" href="/adventure-card.html">Explore</a></li> -->
+        <li class="nav-item"><a class="navbar-link" href="#">Contact</a></li>
+        <li class="nav-item" style="margin-right: 30px;"><a class="navbar-link" href="#">About</a></li>
+      </div>
+      </ul>
+     </nav>
+     
+   <h1 style="margin-top: 50px; margin-left: 110px;">Explore all adventures</h1>
+   <h3 style="margin-bottom: 20px; margin-left: 110px">Here is the adventures list to explore</h3>
+
+
+   <div class="container">
+      
+          <!-- TOOD: MODULE_ADVENTURE_DETAILS -->
+          <!-- 1. Write the child elements as required. -->
+          <!-- 2. Remember to use .adventure-card and its related classes. -->
+          <div class="row adventures-grid">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+               <div class="adventure-card">
+                 <div class="image-container">
+                   <img src="/assets/adventures/resort.jpg" alt="Image not available" onclick="openResortPage()">
+                   <div class=" d-flex justify-content-between align-items-center adventure-card-footer" style="color:black">
+                   <div class="foot-text" style="padding: 10px;" ><h5>Resort</h5></div>
+                   <div class="amount" style="padding: 10px;">₹1,200</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <script>
+              function openResortPage(){
+                window.location.href = "/adventure-card.html"
+              }
+             </script>
+             <div class="col-sm-12 col-md-6 col-lg-3">
+               <div class="adventure-card">
+                 <div class="image-container">
+                   <img src="/assets/adventures/tower.jpg" alt="Image not available">
+                   <div class=" d-flex justify-content-between align-items-center adventure-card-footer" style="color:black">
+                   <div class="foot-text" style="padding: 10px;"><h5>Tower</h5></div>
+                   <div class="amount" style="padding: 10px;">₹1,800</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3">
+               <div class="adventure-card">
+                 <div class="image-container">
+                   <img src="/assets/adventures/mount.jpg" alt="Image not available">
+                   <div class=" d-flex justify-content-between align-items-center adventure-card-footer" style="color:black">
+                   <div class="foot-text" style="padding: 10px;"><h5>Skiing</h5></div>
+                   <div class="amount"style="padding: 10px;">₹1,900</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3">
+               <div class="adventure-card">
+                 <div class="image-container">
+                   <img src="/assets/adventures/palace.jpg" alt="Image not available">
+                   <div class=" d-flex justify-content-between align-items-center adventure-card-footer" style="color:black">
+                   <div class="foot-text"style="padding: 10px;"><h5>University</h5></div>
+                   <div class="amount"style="padding: 10px;">₹800</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             </div>
+             <div class="row adventures-grid">
+             <div class="col-sm-12 col-md-6 col-lg-3">
+               <div class="adventure-card">
+                 <div class="image-container">
+                   <img src="/assets/adventures/huts.jpg" alt="Image not available">
+                   <div class=" d-flex justify-content-between align-items-center adventure-card-footer" style="color:black">
+
+                   <div class="foot-text"style="padding: 10px;"><h5>Market</h5></div>
+                   <div class="amount"style="padding: 10px;">₹600</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3">
+               <div class="adventure-card">
+                 <div class="image-container">
+                   <img src="/assets/adventures/church.jpg" alt="Image not available">
+                   <div class=" d-flex justify-content-between align-items-center adventure-card-footer" style="color:black">
+                   <div class="foot-text"style="padding: 10px;"><h5>Monument</h5></div>
+                   <div class="amount"style="padding: 10px;">₹1,200</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3">
+               <div class="adventure-card">
+                 <div class="image-container">
+                   <img src="/assets/adventures/canopy.jpg" alt="Image not available">
+                   <div class=" d-flex justify-content-between align-items-center adventure-card-footer" style="color:black">
+                   <div class="foot-text"style="padding: 10px;"><h5>Canopy</h5></div>
+                   <div class="amount"style="padding: 10px;">₹1,800</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-sm-12 col-md-6 col-lg-3">
+               <div class="adventure-card">
+                 <div class="image-container">
+                   <img src="/assets/adventures/elephant.jpg" alt="Image not available">
+                   <div class=" d-flex justify-content-between align-items-center adventure-card-footer" style="color:black">
+
+                   <div class="foot-text"style="padding: 10px;"><h5>Beach</h5></div>
+                   <div class="amount"style="padding: 10px;">₹1,200</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+      
+   </div>
+
+  <footer>
+      <div class="container justify-content-center">© GlobalRoaming 2023</div>
+   </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</body>
+
+</html>
+
+
+
+
